@@ -34,7 +34,15 @@ if (answer2 === 'yes' || answer2 === 'y') {
 }
 
 // ask user the third question
-
+var answer3 = prompt('Do I like country music?').toUpperCase();
+if (answer3 === 'NO' || answer3 === 'N') {
+    // correct answer
+    alert('Yea, that is fine if other people like it, but it\'s not for me');
+    console.log('user understands I am not a country fan');
+} else {
+    alert('Uhmm. We have never talked about music taste have we?');
+    console.log('user does not know my music taste');
+}
 // ask user the fourth question
 
 // ask user the fifth question
