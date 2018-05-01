@@ -1,0 +1,22 @@
+
+h1 { 
+    font-size: 2.250em; 
+    letter-spacing:0.10em; 
+    line-height:1.200em; 
+    margin:0.700em 0 0.700em 0; 
+    text-align: center;
+}
+h1 h2 h3 h4 h5 h6 {
+    font-weight: bold;
+}
+p, ul {
+    font-size: 1.100em;
+    line-height:1.500em; 
+    margin:0.750em 0;
+}
+
+li:first-child {
+    background-color: yellow;
+    text-align: center;
+}
+
