@@ -21,7 +21,7 @@ if (answer1 === 'yes' || answer1 === 'y') {
     console.log('user said no, that is wrong for number 1');
 }
 
-// ask user the second question
+// ask user the second question, respond and log
 var answer2 = prompt('Do I like ice cream?').toLowerCase();
 if (answer2 === 'yes' || answer2 === 'y') {
     // correct result 
@@ -33,7 +33,7 @@ if (answer2 === 'yes' || answer2 === 'y') {
     console.log('user is clueless and thinks I do not like ice cream (Q2)');
 }
 
-// ask user the third question
+// ask user the third question, respond and log
 var answer3 = prompt('Do I like country music?').toUpperCase();
 if (answer3 === 'NO' || answer3 === 'N') {
     // correct answer
@@ -44,7 +44,10 @@ if (answer3 === 'NO' || answer3 === 'N') {
     alert('Uhmm. We have never talked about music taste have we?');
     console.log('user does not know my music taste (Q3)');
 }
-// ask user the fourth question
+// ask user the fourth question, respond and log
+// I switched the order of correct & wrong to test the logic
+// however it is really annoying when reading my code later
+// even though I already was using comments to indicate correct or wrong
 var answer4 = prompt('Have I normally been a day person?').toUpperCase();
 if (answer4 === 'YES' || answer4 === 'Y') {
     // wrong answer
@@ -56,5 +59,14 @@ if (answer4 === 'YES' || answer4 === 'Y') {
     console.log('user knows that it has been hard to tell if I am a vampire (Q4)');
 }
 
-// ask user the fifth question
-
+// ask user the fifth question, respond and log
+var answer5 = prompt('Do I like partner dancing?').toLowerCase();
+if (answer5 === 'y' || answer5 === 'yes') {
+    // correct answer
+    alert('Of course that is right! I\'ve spent almost all of my life involved in swing dancing!');
+    console.log('user figures I would not have spent my life on things I hate (Q5)');
+} else {
+    // wrong answer
+    alert('Oh man, if you were correct than I would be hating my life!');
+    console.log('user thinks I have hated most of my life (Q5)');
+}
