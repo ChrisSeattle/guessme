@@ -30,7 +30,7 @@ if (answer2 === 'yes' || answer2 === 'y') {
 } else {
     // wrong answer 
     alert('What you think I\'m crazy? Of course I like ice cream');
-    console.log('user is clueless and thinks I do not like ice cream');
+    console.log('user is clueless and thinks I do not like ice cream (Q2)');
 }
 
 // ask user the third question
@@ -38,12 +38,23 @@ var answer3 = prompt('Do I like country music?').toUpperCase();
 if (answer3 === 'NO' || answer3 === 'N') {
     // correct answer
     alert('Yea, that is fine if other people like it, but it\'s not for me');
-    console.log('user understands I am not a country fan');
+    console.log('user understands I am not a country fan (Q3)');
 } else {
+    // wrong answer
     alert('Uhmm. We have never talked about music taste have we?');
-    console.log('user does not know my music taste');
+    console.log('user does not know my music taste (Q3)');
 }
 // ask user the fourth question
+var answer4 = prompt('Have I normally been a day person?').toUpperCase();
+if (answer4 === 'YES' || answer4 === 'Y') {
+    // wrong answer
+    alert('Are you kidding? A "good morning" starts in the afternoon!');
+    console.log('user is wrong on question 4');
+} else {
+    // correct answer
+    alert('Yes! I have kept "vampire hours" most of my life!');
+    console.log('user knows that it has been hard to tell if I am a vampire (Q4)');
+}
 
 // ask user the fifth question
 
