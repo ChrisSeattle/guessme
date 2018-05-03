@@ -8,6 +8,8 @@ var userName = prompt('Yo, what is your name?');
 alert('Hi, ' + userName + ', good to see you!');
 // log that interaction to the console
 console.log('userName is ' + userName);
+// if userName is '', it won't catch this as an input problem. 
+// Any of the first 5 questions will evaluate under the else outcome for a blank, space, or innapropriate text response. 
 
 // ask the first guessing game question
 var answer1 = prompt('Do you think I have any siblings?').toLowerCase();
